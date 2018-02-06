@@ -294,11 +294,6 @@ def get_dicom_dose(file):
 
 # In[13]:
 
-#my_plan = r'C:\Users\mb22\OneDrive\PhD\Quasar Shared\Data\DICOM\Oncentra\RP1.3.6.1.4.1.2452.6.3168945037.1244793830.2214002341.3012008818.dcm'
-#my_dose = r'C:\Users\mb22\OneDrive\PhD\Quasar Shared\Data\DICOM\Oncentra\RD1.3.6.1.4.1.2452.6.2820584682.1258535538.2684740226.4060889106.dcm'
-#my_ss = r'C:\Users\mb22\OneDrive\PhD\Quasar Shared\Data\DICOM\Oncentra\RS1.3.6.1.4.1.2452.6.2392950960.1269671022.97853884.238715541.dcm'
-
-
 # In[14]:
 
 def check_oncentra_dose_exists(file):
@@ -857,10 +852,6 @@ def add_struct_label_plan_id(results_df,struct_label_file):
 #     - Then shoudl eb abel to determine method to use: https://groups.google.com/d/msg/dicompyler/EMnyhcEg4_Y/4P1wIcJ3AQAJ
 
 # In[265]:
-
-#plan = r'C:\Users\mb22\OneDrive\PhD\Quasar Shared\Data\Trials\PARSPORT\Tidied_Dicom_Files\1001\rtplan.dcm'
-#ss = r'C:\Users\mb22\OneDrive\PhD\Quasar Shared\Data\Trials\PARSPORT\Tidied_Dicom_Files\1001\rtss.dcm'
-#dose = r'C:\Users\mb22\OneDrive\PhD\Quasar Shared\Data\Trials\PARSPORT\Tidied_Dicom_Files\1001\rtdose.dcm'
 
 
 # In[268]:
