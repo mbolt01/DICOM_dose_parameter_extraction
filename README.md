@@ -1,5 +1,16 @@
 # DICOM dose parameter extraction
 Script for automated extraction of dosimetric parameters from multiple RT DICOM files.
+Note: The code is not optimised for speed and the directory structure must be as follows:
+
+- Parent directory
+     - Patient Folder 1
+         - RS file
+         - RD file
+         - RP file
+     - Patient Folder 2
+         - RS file
+         - RD file
+         - RP file....
 
 ## Instructions for use
 Contained within this repository is the Python module "dvh_analysis.py" which can be run on a directory to extract dosimetric parameters from DICOM RT files.
